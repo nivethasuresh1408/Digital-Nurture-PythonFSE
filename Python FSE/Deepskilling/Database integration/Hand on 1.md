@@ -126,6 +126,4 @@ RENAME COLUMN hod_name TO head_of_dept;
 ALTER TABLE students
 DROP COLUMN phone_number;
 ```
-```
 <img width="1918" height="1013" alt="image" src="https://github.com/user-attachments/assets/49c6c3e3-2ab6-4910-812a-5b329898c76b" />
-```
