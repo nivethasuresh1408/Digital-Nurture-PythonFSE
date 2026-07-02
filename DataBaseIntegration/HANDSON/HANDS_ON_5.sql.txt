@@ -1,6 +1,6 @@
 // =========================================================================
 // HANDS-ON 5: NOSQL DATA MODELING & OPERATIONAL CRUD (MONGODB)
-// Participant: MALENI
+// Participant: NIVETHA S
 // =========================================================================
 use college_nosql;
 
