@@ -1,6 +1,6 @@
 # =========================================================================
 # HANDS-ON 6 & 7: ORM MODELS & SCHEMA EVOLUTION
-# Participant: MALENI
+# Participant:NIVETHA S
 # =========================================================================
 from sqlalchemy import Column, Integer, String, ForeignKey, Date, Numeric, CHAR, Boolean, Time
 from sqlalchemy.orm import declarative_base, relationship
