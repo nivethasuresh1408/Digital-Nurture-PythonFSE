@@ -1,6 +1,6 @@
 -- =========================================================================
 -- HANDS-ON 4: QUERY OPTIMISATION — INDEXES & PERFORMANCE
--- Participant: MALENI
+-- Participant: NIVETHA S
 -- =========================================================================
 
 -- Indexes
