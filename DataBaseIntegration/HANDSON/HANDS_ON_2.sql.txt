@@ -1,6 +1,6 @@
 -- =========================================================================
 -- HANDS-ON 2: WRITING SQL QUERIES - DML, JOINS & AGGREGATIONS
--- Participant: MALENI
+-- Participant: NIVETHA S
 -- =========================================================================
 
 -- Task 1: Insert Baseline Sample Data
