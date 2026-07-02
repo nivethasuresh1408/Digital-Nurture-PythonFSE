@@ -1,6 +1,6 @@
 -- =========================================================================
 -- HANDS-ON 3: ADVANCED SQL - SUBQUERIES, VIEWS & TRANSACTIONS
--- Participant: MALENI
+-- Participant: NIVETHA S
 -- =========================================================================
 
 -- Subqueries
