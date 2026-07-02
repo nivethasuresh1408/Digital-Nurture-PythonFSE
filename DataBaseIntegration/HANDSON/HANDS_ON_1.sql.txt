@@ -1,6 +1,6 @@
 -- =========================================================================
 -- HANDS-ON 1: SCHEMA DESIGN & CORE SQL (DDL and Normalisation)
--- Participant: MALENI
+-- Participant: NIVETHA S
 -- =========================================================================
 
 -- Task 1: Create Tables with Primary and Foreign Key Constraints
