@@ -1,6 +1,6 @@
 # =========================================================================
 # HANDS-ON 6: ORM CRUD OPERATIONS & PERFORMANCE TESTING
-# Participant: MALENI
+# Participant:NIVETHA S
 # =========================================================================
 """
 BENCHMARK LOG ANALYSIS (Task 3):
