@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Student Portal</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1 class="logo">
+Student Portal
+</h1>
+
+<nav>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">Courses</a></li>
+
+<li><a href="#">Profile</a></li>
+
+<li><a href="#">Grades</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<main>
+
+<section id="hero">
+
+<h2>Welcome to the Student Portal</h2>
+
+<p>
+
+Manage your academic courses efficiently.
+
+</p>
+
+<button>
+
+Explore Courses
+
+</button>
+
+</section>
+
+<section class="stats">
+
+<div class="stat">
+
+<p class="stat-value">5</p>
+
+<p>Courses</p>
+
+</div>
+
+<div class="stat">
+
+<p class="stat-value">18</p>
+
+<p>Total Credits</p>
+
+</div>
+
+<div class="stat">
+
+<p class="stat-value">3.8</p>
+
+<p>GPA</p>
+
+</div>
+
+</section>
+
+<section id="courses">
+
+<h2>Available Courses</h2>
+
+<input
+type="text"
+id="search-courses"
+placeholder="Search courses...">
+
+<br><br>
+
+<button id="sort-btn">
+
+Sort by Credits
+
+</button>
+
+<br><br>
+
+<div class="course-grid">
+
+</div>
+
+<p id="total-credits"></p>
+
+<div id="selected-course">
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+
+©2026 Student Portal
+
+</p>
+
+</footer>
+
+<script type="module" src="app.js"></script>
+
+</body>
+
+</html>
