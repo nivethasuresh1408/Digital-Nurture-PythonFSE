@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+HANDS-ON 9
+Accessibility Audit (Lighthouse)
+
+Initial Accessibility Score : 85/100 (Example)
+
+Issues Found:
+1. Missing alt attributes.
+2. Missing form labels.
+3. Incorrect heading hierarchy.
+4. Navigation missing aria-label.
+5. Interactive div elements.
+6. Search results not announced.
+7. Keyboard inaccessible cards.
+
+Fixes Applied:
+✔ Added semantic HTML5 tags.
+✔ Added descriptive alt text.
+✔ Added labels for all inputs.
+✔ Correct heading order.
+✔ Added ARIA attributes.
+✔ Added keyboard accessibility.
+✔ Added live region.
+✔ Improved focus styles.
+✔ Added cross-browser support.
+-->
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Accessible Student Portal</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Student Portal</h1>
+
+<nav aria-label="Main Navigation">
+
+<ul>
+
+<li>
+
+<a href="#home"
+   aria-current="page">
+
+Home
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#courses">
+
+Courses
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#profile">
+
+Profile
+
+</a>
+
+</li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<main>
+
+<section id="home">
+
+<h2>Welcome</h2>
+
+<p>
+
+Accessible Student Portal developed according to WCAG 2.1 Guidelines.
+
+</p>
+
+</section>
+
+<section id="courses">
+
+<h2>Courses</h2>
+
+<label for="search">
+
+Search Courses
+
+</label>
+
+<input
+
+id="search"
+
+type="text"
+
+placeholder="Search Course"
+
+>
+
+<p
+
+id="results"
+
+role="status"
+
+aria-live="polite"
+
+>
+
+5 Courses Found
+
+</p>
+
+<div id="courseContainer">
+
+<div
+
+class="course"
+
+tabindex="0"
+
+>
+
+<img
+
+src="https://picsum.photos/300/180"
+
+alt="Student learning in classroom"
+
+>
+
+<h3>Data Structures</h3>
+
+<p>CS101</p>
+
+<button>
+
+Enroll
+
+</button>
+
+</div>
+
+<div
+
+class="course"
+
+tabindex="0"
+
+>
+
+<img
+
+src="https://picsum.photos/301/180"
+
+alt="Programming classroom"
+
+>
+
+<h3>Operating Systems</h3>
+
+<p>CS102</p>
+
+<button>
+
+Enroll
+
+</button>
+
+</div>
+
+<div
+
+class="course"
+
+tabindex="0"
+
+>
+
+<img
+
+src="https://picsum.photos/302/180"
+
+alt="Database server illustration"
+
+>
+
+<h3>Database Management</h3>
+
+<p>CS103</p>
+
+<button>
+
+Enroll
+
+</button>
+
+</div>
+
+<div
+
+class="course"
+
+tabindex="0"
+
+>
+
+<img
+
+src="https://picsum.photos/303/180"
+
+alt="Computer networking"
+
+>
+
+<h3>Computer Networks</h3>
+
+<p>CS104</p>
+
+<button>
+
+Enroll
+
+</button>
+
+</div>
+
+<div
+
+class="course"
+
+tabindex="0"
+
+>
+
+<img
+
+src="https://picsum.photos/304/180"
+
+alt="Software engineering"
+
+>
+
+<h3>Software Engineering</h3>
+
+<p>CS105</p>
+
+<button>
+
+Enroll
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="profile">
+
+<h2>Profile</h2>
+
+<form>
+
+<label for="name">
+
+Full Name
+
+</label>
+
+<input
+
+id="name"
+
+type="text"
+
+>
+
+<label for="email">
+
+Email
+
+</label>
+
+<input
+
+id="email"
+
+type="email"
+
+>
+
+<button type="submit">
+
+Save Profile
+
+</button>
+
+</form>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+
+<script>
+cssVars();
+</script>
+
+</body>
+
+</html>
